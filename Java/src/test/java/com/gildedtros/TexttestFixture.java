@@ -20,7 +20,7 @@ public class TexttestFixture {
 
         GildedTros app = new GildedTros(items);
 
-        int days = 2;
+        int days = 10;
         if (args.length > 0) {
             days = Integer.parseInt(args[0]) + 1;
         }
